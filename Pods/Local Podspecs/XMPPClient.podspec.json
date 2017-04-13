@@ -1,0 +1,48 @@
+{
+  "name": "XMPPClient",
+  "version": "0.1.0",
+  "summary": "A short description of XMPPClient.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/cogentParadigm/XMPPClient",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Ali Gangji": "ali@neonrain.com"
+  },
+  "source": {
+    "git": "https://github.com/cogentParadigm/XMPPClient.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "dependencies": {
+    "JSQMessagesViewController": [
+
+    ],
+    "JSQSystemSoundPlayer": [
+      "~> 2.0"
+    ],
+    "XMPPFramework": [
+
+    ]
+  },
+  "ios": {
+    "frameworks": [
+      "Foundation",
+      "CoreData",
+      "UIKit",
+      "CFNetwork",
+      "Security",
+      "XMPPFramework"
+    ]
+  },
+  "source_files": "XMPPClient/Classes/**/*",
+  "xcconfig": {
+    "HEADER_SEARCH_PATHS": "$(SDKROOT)/usr/include/libxml2 $(PODS_ROOT)/XMPPFramework/module",
+    "ENABLE_BITCODE": "NO"
+  }
+}

@@ -1,0 +1,6 @@
+framework module XMPPClient {
+  umbrella header "XMPPClient-umbrella.h"
+
+  export *
+  module * { export * }
+}

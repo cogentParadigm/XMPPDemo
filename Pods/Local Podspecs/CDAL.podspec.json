@@ -1,0 +1,25 @@
+{
+  "name": "CDAL",
+  "version": "0.1.0",
+  "summary": "Core Data Abstraction Layer written in Swift.",
+  "description": "- Written in Swift\n- Creates a CoreData stack and allows the end-user to choose between local and cloud storage\n- Backend protocols allow additional backends to be created (local and iCloud backends included)\n- Handles migrating data between local and cloud storage when needed (eg. when cloud storage is enabled and local data exists)\n- Performs model migrations progressively and handles failures gracefully",
+  "homepage": "https://github.com/cogentParadigm/CDAL",
+  "license": "MIT",
+  "authors": {
+    "Ali Gangji": "ali@neonrain.com"
+  },
+  "source": {
+    "git": "https://github.com/cogentParadigm/CDAL.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "CDAL": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}
