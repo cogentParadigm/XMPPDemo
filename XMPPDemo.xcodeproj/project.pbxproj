@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4109E0E11E9F0118003684B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4109E0E01E9F0118003684B8 /* AppDelegate.swift */; };
+		4109E0E31E9F0118003684B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4109E0E21E9F0118003684B8 /* ViewController.swift */; };
+		4109E0E61E9F0118003684B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4109E0E41E9F0118003684B8 /* Main.storyboard */; };
+		4109E0E91E9F0118003684B8 /* XMPPDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4109E0E71E9F0118003684B8 /* XMPPDemo.xcdatamodeld */; };
+		4109E0EB1E9F0118003684B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4109E0EA1E9F0118003684B8 /* Assets.xcassets */; };
+		4109E0EE1E9F0118003684B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4109E0EC1E9F0118003684B8 /* LaunchScreen.storyboard */; };
+		4109E0F91E9F0118003684B8 /* XMPPDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4109E0F81E9F0118003684B8 /* XMPPDemoTests.swift */; };
+		4109E1041E9F0118003684B8 /* XMPPDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4109E1031E9F0118003684B8 /* XMPPDemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4109E0F51E9F0118003684B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4109E0D51E9F0118003684B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4109E0DC1E9F0118003684B8;
+			remoteInfo = XMPPDemo;
+		};
+		4109E1001E9F0118003684B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4109E0D51E9F0118003684B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4109E0DC1E9F0118003684B8;
+			remoteInfo = XMPPDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4109E0DD1E9F0118003684B8 /* XMPPDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMPPDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4109E0E01E9F0118003684B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4109E0E21E9F0118003684B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4109E0E51E9F0118003684B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4109E0E81E9F0118003684B8 /* XMPPDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = XMPPDemo.xcdatamodel; sourceTree = "<group>"; };
+		4109E0EA1E9F0118003684B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4109E0ED1E9F0118003684B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4109E0EF1E9F0118003684B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4109E0F41E9F0118003684B8 /* XMPPDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMPPDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4109E0F81E9F0118003684B8 /* XMPPDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMPPDemoTests.swift; sourceTree = "<group>"; };
+		4109E0FA1E9F0118003684B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4109E0FF1E9F0118003684B8 /* XMPPDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMPPDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4109E1031E9F0118003684B8 /* XMPPDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMPPDemoUITests.swift; sourceTree = "<group>"; };
+		4109E1051E9F0118003684B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4109E0DA1E9F0118003684B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4109E0F11E9F0118003684B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4109E0FC1E9F0118003684B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4109E0D41E9F0117003684B8 = {
+			isa = PBXGroup;
+			children = (
+				4109E0DF1E9F0118003684B8 /* XMPPDemo */,
+				4109E0F71E9F0118003684B8 /* XMPPDemoTests */,
+				4109E1021E9F0118003684B8 /* XMPPDemoUITests */,
+				4109E0DE1E9F0118003684B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4109E0DE1E9F0118003684B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4109E0DD1E9F0118003684B8 /* XMPPDemo.app */,
+				4109E0F41E9F0118003684B8 /* XMPPDemoTests.xctest */,
+				4109E0FF1E9F0118003684B8 /* XMPPDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4109E0DF1E9F0118003684B8 /* XMPPDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4109E0E01E9F0118003684B8 /* AppDelegate.swift */,
+				4109E0E21E9F0118003684B8 /* ViewController.swift */,
+				4109E0E41E9F0118003684B8 /* Main.storyboard */,
+				4109E0EA1E9F0118003684B8 /* Assets.xcassets */,
+				4109E0EC1E9F0118003684B8 /* LaunchScreen.storyboard */,
+				4109E0EF1E9F0118003684B8 /* Info.plist */,
+				4109E0E71E9F0118003684B8 /* XMPPDemo.xcdatamodeld */,
+			);
+			path = XMPPDemo;
+			sourceTree = "<group>";
+		};
+		4109E0F71E9F0118003684B8 /* XMPPDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4109E0F81E9F0118003684B8 /* XMPPDemoTests.swift */,
+				4109E0FA1E9F0118003684B8 /* Info.plist */,
+			);
+			path = XMPPDemoTests;
+			sourceTree = "<group>";
+		};
+		4109E1021E9F0118003684B8 /* XMPPDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4109E1031E9F0118003684B8 /* XMPPDemoUITests.swift */,
+				4109E1051E9F0118003684B8 /* Info.plist */,
+			);
+			path = XMPPDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4109E0DC1E9F0118003684B8 /* XMPPDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4109E1081E9F0118003684B8 /* Build configuration list for PBXNativeTarget "XMPPDemo" */;
+			buildPhases = (
+				4109E0D91E9F0118003684B8 /* Sources */,
+				4109E0DA1E9F0118003684B8 /* Frameworks */,
+				4109E0DB1E9F0118003684B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XMPPDemo;
+			productName = XMPPDemo;
+			productReference = 4109E0DD1E9F0118003684B8 /* XMPPDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4109E0F31E9F0118003684B8 /* XMPPDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4109E10B1E9F0118003684B8 /* Build configuration list for PBXNativeTarget "XMPPDemoTests" */;
+			buildPhases = (
+				4109E0F01E9F0118003684B8 /* Sources */,
+				4109E0F11E9F0118003684B8 /* Frameworks */,
+				4109E0F21E9F0118003684B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4109E0F61E9F0118003684B8 /* PBXTargetDependency */,
+			);
+			name = XMPPDemoTests;
+			productName = XMPPDemoTests;
+			productReference = 4109E0F41E9F0118003684B8 /* XMPPDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4109E0FE1E9F0118003684B8 /* XMPPDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4109E10E1E9F0118003684B8 /* Build configuration list for PBXNativeTarget "XMPPDemoUITests" */;
+			buildPhases = (
+				4109E0FB1E9F0118003684B8 /* Sources */,
+				4109E0FC1E9F0118003684B8 /* Frameworks */,
+				4109E0FD1E9F0118003684B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4109E1011E9F0118003684B8 /* PBXTargetDependency */,
+			);
+			name = XMPPDemoUITests;
+			productName = XMPPDemoUITests;
+			productReference = 4109E0FF1E9F0118003684B8 /* XMPPDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4109E0D51E9F0118003684B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Neon Rain Interactive";
+				TargetAttributes = {
+					4109E0DC1E9F0118003684B8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 82952B42LL;
+						ProvisioningStyle = Automatic;
+					};
+					4109E0F31E9F0118003684B8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 82952B42LL;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4109E0DC1E9F0118003684B8;
+					};
+					4109E0FE1E9F0118003684B8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 82952B42LL;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4109E0DC1E9F0118003684B8;
+					};
+				};
+			};
+			buildConfigurationList = 4109E0D81E9F0118003684B8 /* Build configuration list for PBXProject "XMPPDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4109E0D41E9F0117003684B8;
+			productRefGroup = 4109E0DE1E9F0118003684B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4109E0DC1E9F0118003684B8 /* XMPPDemo */,
+				4109E0F31E9F0118003684B8 /* XMPPDemoTests */,
+				4109E0FE1E9F0118003684B8 /* XMPPDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4109E0DB1E9F0118003684B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4109E0EE1E9F0118003684B8 /* LaunchScreen.storyboard in Resources */,
+				4109E0EB1E9F0118003684B8 /* Assets.xcassets in Resources */,
+				4109E0E61E9F0118003684B8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4109E0F21E9F0118003684B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4109E0FD1E9F0118003684B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4109E0D91E9F0118003684B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4109E0E31E9F0118003684B8 /* ViewController.swift in Sources */,
+				4109E0E91E9F0118003684B8 /* XMPPDemo.xcdatamodeld in Sources */,
+				4109E0E11E9F0118003684B8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4109E0F01E9F0118003684B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4109E0F91E9F0118003684B8 /* XMPPDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4109E0FB1E9F0118003684B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4109E1041E9F0118003684B8 /* XMPPDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4109E0F61E9F0118003684B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4109E0DC1E9F0118003684B8 /* XMPPDemo */;
+			targetProxy = 4109E0F51E9F0118003684B8 /* PBXContainerItemProxy */;
+		};
+		4109E1011E9F0118003684B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4109E0DC1E9F0118003684B8 /* XMPPDemo */;
+			targetProxy = 4109E1001E9F0118003684B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4109E0E41E9F0118003684B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4109E0E51E9F0118003684B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4109E0EC1E9F0118003684B8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4109E0ED1E9F0118003684B8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4109E1061E9F0118003684B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4109E1071E9F0118003684B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4109E1091E9F0118003684B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 82952B42LL;
+				INFOPLIST_FILE = XMPPDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neonrain.XMPPDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4109E10A1E9F0118003684B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 82952B42LL;
+				INFOPLIST_FILE = XMPPDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neonrain.XMPPDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4109E10C1E9F0118003684B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 82952B42LL;
+				INFOPLIST_FILE = XMPPDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neonrain.XMPPDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XMPPDemo.app/XMPPDemo";
+			};
+			name = Debug;
+		};
+		4109E10D1E9F0118003684B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 82952B42LL;
+				INFOPLIST_FILE = XMPPDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neonrain.XMPPDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XMPPDemo.app/XMPPDemo";
+			};
+			name = Release;
+		};
+		4109E10F1E9F0118003684B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 82952B42LL;
+				INFOPLIST_FILE = XMPPDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neonrain.XMPPDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = XMPPDemo;
+			};
+			name = Debug;
+		};
+		4109E1101E9F0118003684B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 82952B42LL;
+				INFOPLIST_FILE = XMPPDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neonrain.XMPPDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = XMPPDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4109E0D81E9F0118003684B8 /* Build configuration list for PBXProject "XMPPDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4109E1061E9F0118003684B8 /* Debug */,
+				4109E1071E9F0118003684B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4109E1081E9F0118003684B8 /* Build configuration list for PBXNativeTarget "XMPPDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4109E1091E9F0118003684B8 /* Debug */,
+				4109E10A1E9F0118003684B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4109E10B1E9F0118003684B8 /* Build configuration list for PBXNativeTarget "XMPPDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4109E10C1E9F0118003684B8 /* Debug */,
+				4109E10D1E9F0118003684B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4109E10E1E9F0118003684B8 /* Build configuration list for PBXNativeTarget "XMPPDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4109E10F1E9F0118003684B8 /* Debug */,
+				4109E1101E9F0118003684B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4109E0E71E9F0118003684B8 /* XMPPDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4109E0E81E9F0118003684B8 /* XMPPDemo.xcdatamodel */,
+			);
+			currentVersion = 4109E0E81E9F0118003684B8 /* XMPPDemo.xcdatamodel */;
+			path = XMPPDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4109E0D51E9F0118003684B8 /* Project object */;
+}
