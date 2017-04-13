@@ -15,6 +15,21 @@
 		4109E0EE1E9F0118003684B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4109E0EC1E9F0118003684B8 /* LaunchScreen.storyboard */; };
 		4109E0F91E9F0118003684B8 /* XMPPDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4109E0F81E9F0118003684B8 /* XMPPDemoTests.swift */; };
 		4109E1041E9F0118003684B8 /* XMPPDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4109E1031E9F0118003684B8 /* XMPPDemoUITests.swift */; };
+		4109E1121E9F0170003684B8 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 4109E1111E9F0170003684B8 /* Podfile */; };
+		4109E1191E9F02F3003684B8 /* FactoryFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4109E1181E9F02F3003684B8 /* FactoryFactory.swift */; };
+		4109E11B1E9F02FF003684B8 /* UIFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4109E11A1E9F02FF003684B8 /* UIFactory.swift */; };
+		4109E11D1E9F031A003684B8 /* ControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4109E11C1E9F031A003684B8 /* ControllerFactory.swift */; };
+		4109E11F1E9F0329003684B8 /* IOFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4109E11E1E9F0329003684B8 /* IOFactory.swift */; };
+		4109E1211E9F0337003684B8 /* DBFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4109E1201E9F0337003684B8 /* DBFactory.swift */; };
+		4109E1231E9F0405003684B8 /* MessagingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4109E1221E9F0405003684B8 /* MessagingCoordinator.swift */; };
+		4109E1251E9F0510003684B8 /* MessagesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4109E1241E9F0510003684B8 /* MessagesTableViewCell.swift */; };
+		4109E1271E9F055E003684B8 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4109E1261E9F055E003684B8 /* MessagesViewController.swift */; };
+		4109E1291E9F0571003684B8 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4109E1281E9F0571003684B8 /* ChatViewController.swift */; };
+		4109E12B1E9F0595003684B8 /* ContactListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4109E12A1E9F0595003684B8 /* ContactListTableViewController.swift */; };
+		4109E12D1E9F079C003684B8 /* AppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4109E12C1E9F079C003684B8 /* AppController.swift */; };
+		97E83241B6E218091D6A636A /* Pods_XMPPDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2379070EBB08DEF4A8C5364 /* Pods_XMPPDemoTests.framework */; };
+		DD34CAFAAAC22301CE773B6C /* Pods_XMPPDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCFA9AF446168426C3C4199 /* Pods_XMPPDemo.framework */; };
+		EEC771106F7840C03DD40D8C /* Pods_XMPPDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E35445B0FF78D7D17CF8040 /* Pods_XMPPDemoUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +50,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0872F9C2F77E48CD45389922 /* Pods-XMPPDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMPPDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XMPPDemoUITests/Pods-XMPPDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1B3C512BDEA41FC86C3B2B7F /* Pods-XMPPDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMPPDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-XMPPDemo/Pods-XMPPDemo.release.xcconfig"; sourceTree = "<group>"; };
+		2E35445B0FF78D7D17CF8040 /* Pods_XMPPDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XMPPDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40DB3BEB786FABB4DF16C96A /* Pods-XMPPDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMPPDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XMPPDemoTests/Pods-XMPPDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4109E0DD1E9F0118003684B8 /* XMPPDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMPPDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4109E0E01E9F0118003684B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4109E0E21E9F0118003684B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +68,23 @@
 		4109E0FF1E9F0118003684B8 /* XMPPDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMPPDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4109E1031E9F0118003684B8 /* XMPPDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMPPDemoUITests.swift; sourceTree = "<group>"; };
 		4109E1051E9F0118003684B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4109E1111E9F0170003684B8 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		4109E1181E9F02F3003684B8 /* FactoryFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactoryFactory.swift; sourceTree = "<group>"; };
+		4109E11A1E9F02FF003684B8 /* UIFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFactory.swift; sourceTree = "<group>"; };
+		4109E11C1E9F031A003684B8 /* ControllerFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControllerFactory.swift; sourceTree = "<group>"; };
+		4109E11E1E9F0329003684B8 /* IOFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IOFactory.swift; sourceTree = "<group>"; };
+		4109E1201E9F0337003684B8 /* DBFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBFactory.swift; sourceTree = "<group>"; };
+		4109E1221E9F0405003684B8 /* MessagingCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagingCoordinator.swift; sourceTree = "<group>"; };
+		4109E1241E9F0510003684B8 /* MessagesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesTableViewCell.swift; sourceTree = "<group>"; };
+		4109E1261E9F055E003684B8 /* MessagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		4109E1281E9F0571003684B8 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		4109E12A1E9F0595003684B8 /* ContactListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactListTableViewController.swift; sourceTree = "<group>"; };
+		4109E12C1E9F079C003684B8 /* AppController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppController.swift; sourceTree = "<group>"; };
+		4BA581DC6DE8D3EF349EE256 /* Pods-XMPPDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMPPDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XMPPDemo/Pods-XMPPDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		5DCFA9AF446168426C3C4199 /* Pods_XMPPDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XMPPDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2379070EBB08DEF4A8C5364 /* Pods_XMPPDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XMPPDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA1E7BDFE515BB2C3A14F2DF /* Pods-XMPPDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMPPDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XMPPDemoTests/Pods-XMPPDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		F000092DAC02FF2165C4ED30 /* Pods-XMPPDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMPPDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XMPPDemoUITests/Pods-XMPPDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD34CAFAAAC22301CE773B6C /* Pods_XMPPDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97E83241B6E218091D6A636A /* Pods_XMPPDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,19 +108,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEC771106F7840C03DD40D8C /* Pods_XMPPDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07B97049AE82BEB9F4F3E6F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DCFA9AF446168426C3C4199 /* Pods_XMPPDemo.framework */,
+				C2379070EBB08DEF4A8C5364 /* Pods_XMPPDemoTests.framework */,
+				2E35445B0FF78D7D17CF8040 /* Pods_XMPPDemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4109E0D41E9F0117003684B8 = {
 			isa = PBXGroup;
 			children = (
+				4109E1111E9F0170003684B8 /* Podfile */,
 				4109E0DF1E9F0118003684B8 /* XMPPDemo */,
 				4109E0F71E9F0118003684B8 /* XMPPDemoTests */,
 				4109E1021E9F0118003684B8 /* XMPPDemoUITests */,
 				4109E0DE1E9F0118003684B8 /* Products */,
+				FE7465B9052A36C15F54EAAC /* Pods */,
+				07B97049AE82BEB9F4F3E6F8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +151,11 @@
 		4109E0DF1E9F0118003684B8 /* XMPPDemo */ = {
 			isa = PBXGroup;
 			children = (
+				4109E1171E9F026C003684B8 /* ViewControllers */,
+				4109E1161E9F0263003684B8 /* Views */,
+				4109E1151E9F0256003684B8 /* IO */,
+				4109E1141E9F024E003684B8 /* Controllers */,
+				4109E1131E9F0245003684B8 /* Factories */,
 				4109E0E01E9F0118003684B8 /* AppDelegate.swift */,
 				4109E0E21E9F0118003684B8 /* ViewController.swift */,
 				4109E0E41E9F0118003684B8 /* Main.storyboard */,
@@ -128,6 +185,65 @@
 			path = XMPPDemoUITests;
 			sourceTree = "<group>";
 		};
+		4109E1131E9F0245003684B8 /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				4109E1181E9F02F3003684B8 /* FactoryFactory.swift */,
+				4109E11A1E9F02FF003684B8 /* UIFactory.swift */,
+				4109E11C1E9F031A003684B8 /* ControllerFactory.swift */,
+				4109E11E1E9F0329003684B8 /* IOFactory.swift */,
+				4109E1201E9F0337003684B8 /* DBFactory.swift */,
+			);
+			path = Factories;
+			sourceTree = "<group>";
+		};
+		4109E1141E9F024E003684B8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4109E12C1E9F079C003684B8 /* AppController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4109E1151E9F0256003684B8 /* IO */ = {
+			isa = PBXGroup;
+			children = (
+				4109E1221E9F0405003684B8 /* MessagingCoordinator.swift */,
+			);
+			path = IO;
+			sourceTree = "<group>";
+		};
+		4109E1161E9F0263003684B8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4109E1241E9F0510003684B8 /* MessagesTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4109E1171E9F026C003684B8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4109E1261E9F055E003684B8 /* MessagesViewController.swift */,
+				4109E1281E9F0571003684B8 /* ChatViewController.swift */,
+				4109E12A1E9F0595003684B8 /* ContactListTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FE7465B9052A36C15F54EAAC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4BA581DC6DE8D3EF349EE256 /* Pods-XMPPDemo.debug.xcconfig */,
+				1B3C512BDEA41FC86C3B2B7F /* Pods-XMPPDemo.release.xcconfig */,
+				40DB3BEB786FABB4DF16C96A /* Pods-XMPPDemoTests.debug.xcconfig */,
+				CA1E7BDFE515BB2C3A14F2DF /* Pods-XMPPDemoTests.release.xcconfig */,
+				0872F9C2F77E48CD45389922 /* Pods-XMPPDemoUITests.debug.xcconfig */,
+				F000092DAC02FF2165C4ED30 /* Pods-XMPPDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +251,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4109E1081E9F0118003684B8 /* Build configuration list for PBXNativeTarget "XMPPDemo" */;
 			buildPhases = (
+				C6A54CC4D95784AA55A835D5 /* 📦 Check Pods Manifest.lock */,
 				4109E0D91E9F0118003684B8 /* Sources */,
 				4109E0DA1E9F0118003684B8 /* Frameworks */,
 				4109E0DB1E9F0118003684B8 /* Resources */,
+				38FD8E56932EFBBDB2DBA367 /* 📦 Embed Pods Frameworks */,
+				28CFD1C252130857CA31F1B5 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +271,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4109E10B1E9F0118003684B8 /* Build configuration list for PBXNativeTarget "XMPPDemoTests" */;
 			buildPhases = (
+				B92A201DC5BC9A3B76CCAF2C /* 📦 Check Pods Manifest.lock */,
 				4109E0F01E9F0118003684B8 /* Sources */,
 				4109E0F11E9F0118003684B8 /* Frameworks */,
 				4109E0F21E9F0118003684B8 /* Resources */,
+				59E636F30685B31952EB197F /* 📦 Embed Pods Frameworks */,
+				040CD5B720CF8E2C1DA4E89F /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +292,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4109E10E1E9F0118003684B8 /* Build configuration list for PBXNativeTarget "XMPPDemoUITests" */;
 			buildPhases = (
+				74DBF2264A168D5AD7C69498 /* 📦 Check Pods Manifest.lock */,
 				4109E0FB1E9F0118003684B8 /* Sources */,
 				4109E0FC1E9F0118003684B8 /* Frameworks */,
 				4109E0FD1E9F0118003684B8 /* Resources */,
+				D04B9DB1C47CF9F175D7BAFD /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -240,6 +364,7 @@
 			files = (
 				4109E0EE1E9F0118003684B8 /* LaunchScreen.storyboard in Resources */,
 				4109E0EB1E9F0118003684B8 /* Assets.xcassets in Resources */,
+				4109E1121E9F0170003684B8 /* Podfile in Resources */,
 				4109E0E61E9F0118003684B8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,14 +385,148 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		040CD5B720CF8E2C1DA4E89F /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XMPPDemoTests/Pods-XMPPDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28CFD1C252130857CA31F1B5 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XMPPDemo/Pods-XMPPDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38FD8E56932EFBBDB2DBA367 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XMPPDemo/Pods-XMPPDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59E636F30685B31952EB197F /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XMPPDemoTests/Pods-XMPPDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74DBF2264A168D5AD7C69498 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B92A201DC5BC9A3B76CCAF2C /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C6A54CC4D95784AA55A835D5 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D04B9DB1C47CF9F175D7BAFD /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XMPPDemoUITests/Pods-XMPPDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4109E0D91E9F0118003684B8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4109E1211E9F0337003684B8 /* DBFactory.swift in Sources */,
+				4109E11D1E9F031A003684B8 /* ControllerFactory.swift in Sources */,
 				4109E0E31E9F0118003684B8 /* ViewController.swift in Sources */,
 				4109E0E91E9F0118003684B8 /* XMPPDemo.xcdatamodeld in Sources */,
 				4109E0E11E9F0118003684B8 /* AppDelegate.swift in Sources */,
+				4109E1191E9F02F3003684B8 /* FactoryFactory.swift in Sources */,
+				4109E11B1E9F02FF003684B8 /* UIFactory.swift in Sources */,
+				4109E1251E9F0510003684B8 /* MessagesTableViewCell.swift in Sources */,
+				4109E11F1E9F0329003684B8 /* IOFactory.swift in Sources */,
+				4109E1271E9F055E003684B8 /* MessagesViewController.swift in Sources */,
+				4109E1291E9F0571003684B8 /* ChatViewController.swift in Sources */,
+				4109E12B1E9F0595003684B8 /* ContactListTableViewController.swift in Sources */,
+				4109E1231E9F0405003684B8 /* MessagingCoordinator.swift in Sources */,
+				4109E12D1E9F079C003684B8 /* AppController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +676,7 @@
 		};
 		4109E1091E9F0118003684B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BA581DC6DE8D3EF349EE256 /* Pods-XMPPDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 82952B42LL;
@@ -430,6 +690,7 @@
 		};
 		4109E10A1E9F0118003684B8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B3C512BDEA41FC86C3B2B7F /* Pods-XMPPDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 82952B42LL;
@@ -443,6 +704,7 @@
 		};
 		4109E10C1E9F0118003684B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40DB3BEB786FABB4DF16C96A /* Pods-XMPPDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -458,6 +720,7 @@
 		};
 		4109E10D1E9F0118003684B8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA1E7BDFE515BB2C3A14F2DF /* Pods-XMPPDemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -473,6 +736,7 @@
 		};
 		4109E10F1E9F0118003684B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0872F9C2F77E48CD45389922 /* Pods-XMPPDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 82952B42LL;
@@ -487,6 +751,7 @@
 		};
 		4109E1101E9F0118003684B8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F000092DAC02FF2165C4ED30 /* Pods-XMPPDemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 82952B42LL;
@@ -518,6 +783,7 @@
 				4109E10A1E9F0118003684B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4109E10B1E9F0118003684B8 /* Build configuration list for PBXNativeTarget "XMPPDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +792,7 @@
 				4109E10D1E9F0118003684B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4109E10E1E9F0118003684B8 /* Build configuration list for PBXNativeTarget "XMPPDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +801,7 @@
 				4109E1101E9F0118003684B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
